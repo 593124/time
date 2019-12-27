@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+    <item
+        android:id="@+id/nav_del"
+        android:icon="@drawable/delete"
+        app:showAsAction="ifRoom"
+        android:title="删除" />
+    <item
+        android:id="@+id/nav_update"
+        android:icon="@drawable/chage"
+        app:showAsAction="ifRoom"
+        android:title="修改" />
+
+</menu>
